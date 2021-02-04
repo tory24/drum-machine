@@ -11,12 +11,15 @@ I created this drum machine as part of FreeCodeCamp's Front End Libraries course
 The aim is to create an app that uses front end libraries, which were taught through the course. I chose to use React.js, as I believe it is the most useful front end library to become familiar with while I'm just starting out.
 
 ### Preview
+#### Keypress
+
+![Button press Preview gif](click-preview.gif)
+
 #### Click
 
 ![Click Preview gif](button-preview.gif)
 
 
-#### Keypress
-
-![Button press Preview gif](click-preview.gif)
-
+#### Notes
+* I hope to update eventually by adding a modifier which allows for 9 new sounds
+* Also I hope to make it a bit more interesting by adding a theme, maybe Star Wars or something along those lines.
