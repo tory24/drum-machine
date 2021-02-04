@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  
+h1 {
+    padding: 25px 0;
+}
+  
+#drum-machine {
+    display: flex;
+    background-color: rgba(155, 23, 134, 0.4);
+    margin: 20px auto;
+    width: 630px;
+    height: 310px;
+    border: 3px solid black;
+}
+  
+#display, #info-box {
+    width: 315px;
+}
+  
+.drum-pad, #info-box {
+    font-size: 18px;
+}
+  
+.drum-pad {
+    background-color: rgba(125, 123, 204, 0.6);
+    font-family: sans-serif;
+    width: 90px;
+    height: 90px;
+    margin: 10px 5px 0px 5px;
+    border-radius: 15px;
+}
+  
+#description-box {
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 150px;
+    height: 50px;
+}
+  
+#text {
+    padding-top: 13px;
+}
+  
+  
+  
+  
+/* Small Screen Adjustments*/
+  
+@media only screen and (max-width: 768px) {
+    #drum-machine {
+        width: 310px;
+        height: 450px;
+        flex-direction: column-reverse;
+    }
+}
